@@ -1,0 +1,73 @@
+/* RecipeCard.css */
+
+.recipe-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-10px);
+}
+
+.recipe-card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.recipe-card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.recipe-card-chef {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #555;
+}
+
+.recipe-card-rating {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #f39c12;
+}
+
+.recipe-card-description {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 10px;
+}
+
+@media (max-width: 1024px) {
+  .recipe-card {
+    padding: 10px;
+  }
+
+  .recipe-card-title {
+    font-size: 1.1rem;
+  }
+
+  .recipe-card-chef,
+  .recipe-card-rating {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .recipe-card {
+    padding: 15px;
+  }
+
+  .recipe-card-title {
+    font-size: 1.1rem;
+  }
+
+  .recipe-card-description {
+    font-size: 0.85rem;
+  }
+}

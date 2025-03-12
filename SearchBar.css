@@ -1,0 +1,25 @@
+/* SearchBar.css */
+
+/* General Styles for Search Bar */
+.search-bar {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .search-bar {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .search-bar {
+      font-size: 12px;
+      padding: 10px;
+    }
+  }
+  

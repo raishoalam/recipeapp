@@ -1,0 +1,33 @@
+/* SortingOptions.css */
+
+.sorting-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .sorting-options select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  @media (max-width: 768px) {
+    .sorting-options {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .sorting-options select {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sorting-options select {
+      font-size: 12px;
+      padding: 10px;
+    }
+  }
+  
